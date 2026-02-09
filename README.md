@@ -1,13 +1,7 @@
-Awesome 👍
-Here’s a **clean, professional README.md** customized **exactly for your live site**:
+
 
 👉 **[https://www.bemyvallentine.pixellon.in/](https://www.bemyvallentine.pixellon.in/)**
 
-You can **copy–paste this directly** into your `README.md`.
-
----
-
-```md
 # 💖 Be My Valentine
 
 A cute, playful, and interactive Valentine’s website designed to ask the most important question in a fun and memorable way 💌  
