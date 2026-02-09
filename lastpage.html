@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thank You</title>
+  <link rel="stylesheet" href="css/flower.css" />
+</head>
+
+<body>
+
+  <!-- BACKGROUND VIDEO -->
+  <video id="bgVideo" autoplay loop muted playsinline>
+    <source src="her11.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- CONTENT -->
+  <div class="content">
+    <div id="thankyou"><b>Thank you for being my girlfriend</b></div>
+    <p class="tap">Tap anywhere to enable sound ❤️</p>
+  </div>
+
+  <!-- ENABLE AUDIO ON CLICK -->
+  <script>
+    document.addEventListener("click", () => {
+      const video = document.getElementById("bgVideo");
+      video.muted = false;
+      video.volume = 0.4; 
+      video.play();
+    }, { once: true });
+  </script>
+
+</body>
+</html>
