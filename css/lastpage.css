@@ -5,13 +5,16 @@ body {
   background-color: #fff5e4;
   color: #ff9494;
 }
+
 #thankyou {
   font-size: 50px;
   margin-bottom: 20px;
 }
+
 .rizz {
   margin-bottom: 10 px;
 }
+
 .button {
   padding: 10px 20px;
   font-size: 18px;
@@ -32,4 +35,15 @@ body {
   color: #ffe3e1;
   border: 2px solid #ff9494;
   box-shadow: 1px 1px 2px #ffe3e1;
+}
+
+.watermark {
+  position: fixed;
+  bottom: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  z-index: 9999;
 }
